@@ -1,9 +1,9 @@
 # Configurações Iniciais
 
-##React Project Start
+## React Project Start
 `yarn create react-app NOMEPROJETO --template typescript`
 
-##NodeJS Server Start
+## NodeJS Server Start
 mkdir server
 
 `yarn init -y`
