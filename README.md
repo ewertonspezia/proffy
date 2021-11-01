@@ -1,31 +1,39 @@
-# Configurações Iniciais
+The Project was developed at NLW2 at Rocketseat.
 
-## React Project Start
-`yarn create react-app NOMEPROJETO --template typescript`
+It is Profy, a platform for online studies where it is possible to register or hire the service of teachers.
 
-## NodeJS Server Start
-mkdir server
+### Screenshots
 
-`yarn init -y`
+<div align="center" id="top"> 
+  <img src="./aulas/web/src/assets/images/layout-desk-mobile.png" alt="Layout Desktop e Mobile" />
+</div>
+<br/>
+<br/>
 
-Criar pasta src
+### Run API
 
-Criar arquivo server.ts dentro de src
+```bash
+# Go to server folder
+$ cd Proffy/server
 
-`yarn add typescript -D`
+# Install Dependencies
+$ yarn
 
-Criar arquivo de configurações do typescript
+# Run Aplication
+$ yarn start
+```
+Access API at http://localhost:3333/
 
-`yarn tsc --init`
+### Run Web Project
 
-Dentro do arquivo tsconfig.json alterar target para es2017 (devido a compatibilidades com os navegadores)
+```bash
+# Go to web folder
+$ cd Proffy/web
 
-Instalar a dependência abaixo para observar as alterações no servidor e reestartar o server automaticamente
+# Install Dependencies
+$ yarn
 
-`yarn add ts-node-dev -D`
-
-Criar dentro de package.json para conseguir iniciar o server com o comando `yarn start`
-
-`"scripts": {
-    "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
-  }`
+# Run Aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
