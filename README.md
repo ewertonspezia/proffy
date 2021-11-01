@@ -7,14 +7,12 @@ It is Profy, a platform for online studies where it is possible to register or h
 <div align="center" id="top"> 
   <img src="./aulas/web/src/assets/images/layout-desk-mobile.png" alt="Layout Desktop e Mobile" />
 </div>
-<br/>
-<br/>
 
 ### Run API
 
 ```bash
 # Go to server folder
-$ cd Proffy/server
+$ cd proffy/server
 
 # Install Dependencies
 $ yarn
@@ -28,7 +26,7 @@ Access API at http://localhost:3333/
 
 ```bash
 # Go to web folder
-$ cd Proffy/web
+$ cd proffy/web
 
 # Install Dependencies
 $ yarn
